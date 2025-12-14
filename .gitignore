@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+mlops_env/
+venv/
+.env
+
+# Data
+data/raw/
+data/processed/
+*.csv
+
+# Models & artifacts
+artifacts/
+*.h5
+*.keras
+*.joblib
+
+# MLflow
+mlruns/
+
+# OS
+.DS_Store
